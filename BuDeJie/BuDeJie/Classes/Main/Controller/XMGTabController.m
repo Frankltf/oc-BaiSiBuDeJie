@@ -20,6 +20,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setupAllController];
+    [self setupTitleButton];
+    // Do any additional setup after loading the view.
+}
+//添加子控制器
+-(void)setupAllController{
     XMGEssenceViewController *essence=[[XMGEssenceViewController alloc]init];
     UINavigationController *nav1=[[UINavigationController alloc]initWithRootViewController:essence];
     [self addChildViewController:nav1];
@@ -38,7 +44,23 @@
     XMGMeTableViewController *me=[[XMGMeTableViewController alloc]init];
     UINavigationController *nav5=[[UINavigationController alloc]initWithRootViewController:me];
     [self addChildViewController:nav5];
-    // Do any additional setup after loading the view.
+}
+//设置子控制器按钮
+-(void)setupTitleButton{
+    UINavigationController *nav1=self.childViewControllers[0];
+    nav1.tabBarItem.title=@"精华";
+    
+    UINavigationController *nav2=self.childViewControllers[1];
+    nav2.tabBarItem.title=@"新帖";
+    
+    UINavigationController *nav3=self.childViewControllers[2];
+    nav3.tabBarItem.title=@"发布";
+    
+    UINavigationController *nav4=self.childViewControllers[3];
+    nav4.tabBarItem.title=@"关注";
+    
+    UINavigationController *nav5=self.childViewControllers[4];
+    nav5.tabBarItem.title=@"我的";
 }
 
 - (void)didReceiveMemoryWarning {
