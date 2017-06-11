@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84DDA9811EED0F1200F8893C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DDA9801EED0F1200F8893C /* main.m */; };
-		84DDA9841EED0F1200F8893C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DDA9831EED0F1200F8893C /* AppDelegate.m */; };
-		84DDA9871EED0F1200F8893C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DDA9861EED0F1200F8893C /* ViewController.m */; };
+		251CF0C31EED3D400055E738 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 251CF0BD1EED3D400055E738 /* AppDelegate.m */; };
+		251CF0C41EED3D400055E738 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 251CF0BE1EED3D400055E738 /* main.m */; };
 		84DDA98A1EED0F1200F8893C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DDA9881EED0F1200F8893C /* Main.storyboard */; };
 		84DDA98C1EED0F1200F8893C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DDA98B1EED0F1200F8893C /* Assets.xcassets */; };
 		84DDA98F1EED0F1200F8893C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DDA98D1EED0F1200F8893C /* LaunchScreen.storyboard */; };
@@ -27,12 +26,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		251CF0BC1EED3D400055E738 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		251CF0BD1EED3D400055E738 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		251CF0BE1EED3D400055E738 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84DDA97C1EED0F1200F8893C /* BuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84DDA9801EED0F1200F8893C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84DDA9821EED0F1200F8893C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		84DDA9831EED0F1200F8893C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84DDA9851EED0F1200F8893C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84DDA9861EED0F1200F8893C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84DDA9891EED0F1200F8893C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84DDA98B1EED0F1200F8893C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84DDA98E1EED0F1200F8893C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,6 +57,216 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		251CF0A61EED3D400055E738 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				251CF0A71EED3D400055E738 /* Essence */,
+				251CF0AB1EED3D400055E738 /* FriendTrend */,
+				251CF0AF1EED3D400055E738 /* Main */,
+				251CF0B31EED3D400055E738 /* Me */,
+				251CF0B71EED3D400055E738 /* New */,
+				251CF0BB1EED3D400055E738 /* Other */,
+				251CF0BF1EED3D400055E738 /* Publish */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		251CF0A71EED3D400055E738 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				251CF0A81EED3D400055E738 /* Controller */,
+				251CF0A91EED3D400055E738 /* Model */,
+				251CF0AA1EED3D400055E738 /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		251CF0A81EED3D400055E738 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		251CF0A91EED3D400055E738 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		251CF0AA1EED3D400055E738 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		251CF0AB1EED3D400055E738 /* FriendTrend */ = {
+			isa = PBXGroup;
+			children = (
+				251CF0AC1EED3D400055E738 /* Controller */,
+				251CF0AD1EED3D400055E738 /* Model */,
+				251CF0AE1EED3D400055E738 /* View */,
+			);
+			path = FriendTrend;
+			sourceTree = "<group>";
+		};
+		251CF0AC1EED3D400055E738 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		251CF0AD1EED3D400055E738 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		251CF0AE1EED3D400055E738 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		251CF0AF1EED3D400055E738 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				251CF0B01EED3D400055E738 /* Controller */,
+				251CF0B11EED3D400055E738 /* Model */,
+				251CF0B21EED3D400055E738 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		251CF0B01EED3D400055E738 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		251CF0B11EED3D400055E738 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		251CF0B21EED3D400055E738 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		251CF0B31EED3D400055E738 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				251CF0B41EED3D400055E738 /* Controller */,
+				251CF0B51EED3D400055E738 /* Model */,
+				251CF0B61EED3D400055E738 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		251CF0B41EED3D400055E738 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		251CF0B51EED3D400055E738 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		251CF0B61EED3D400055E738 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		251CF0B71EED3D400055E738 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				251CF0B81EED3D400055E738 /* Controller */,
+				251CF0B91EED3D400055E738 /* Model */,
+				251CF0BA1EED3D400055E738 /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		251CF0B81EED3D400055E738 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		251CF0B91EED3D400055E738 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		251CF0BA1EED3D400055E738 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		251CF0BB1EED3D400055E738 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				251CF0BC1EED3D400055E738 /* AppDelegate.h */,
+				251CF0BD1EED3D400055E738 /* AppDelegate.m */,
+				251CF0BE1EED3D400055E738 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		251CF0BF1EED3D400055E738 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				251CF0C01EED3D400055E738 /* Controller */,
+				251CF0C11EED3D400055E738 /* Model */,
+				251CF0C21EED3D400055E738 /* View */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		251CF0C01EED3D400055E738 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		251CF0C11EED3D400055E738 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		251CF0C21EED3D400055E738 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		84DDA9731EED0F1200F8893C = {
 			isa = PBXGroup;
 			children = (
@@ -81,10 +288,7 @@
 		84DDA97E1EED0F1200F8893C /* BuDeJie */ = {
 			isa = PBXGroup;
 			children = (
-				84DDA9821EED0F1200F8893C /* AppDelegate.h */,
-				84DDA9831EED0F1200F8893C /* AppDelegate.m */,
-				84DDA9851EED0F1200F8893C /* ViewController.h */,
-				84DDA9861EED0F1200F8893C /* ViewController.m */,
+				251CF0A61EED3D400055E738 /* Classes */,
 				84DDA9881EED0F1200F8893C /* Main.storyboard */,
 				84DDA98B1EED0F1200F8893C /* Assets.xcassets */,
 				84DDA98D1EED0F1200F8893C /* LaunchScreen.storyboard */,
@@ -97,7 +301,6 @@
 		84DDA97F1EED0F1200F8893C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				84DDA9801EED0F1200F8893C /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -215,9 +418,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DDA9871EED0F1200F8893C /* ViewController.m in Sources */,
-				84DDA9841EED0F1200F8893C /* AppDelegate.m in Sources */,
-				84DDA9811EED0F1200F8893C /* main.m in Sources */,
+				251CF0C41EED3D400055E738 /* main.m in Sources */,
+				251CF0C31EED3D400055E738 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +620,7 @@
 				84DDA9A01EED0F1200F8893C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84DDA9A11EED0F1200F8893C /* Build configuration list for PBXNativeTarget "BuDeJieUITests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +629,7 @@
 				84DDA9A31EED0F1200F8893C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
