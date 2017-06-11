@@ -24,6 +24,16 @@
     [self setupTitleButton];
     // Do any additional setup after loading the view.
 }
++(void)load{
+    UITabBarItem *tabBarItem=[UITabBarItem appearanceWhenContainedIn:self, nil];
+    NSMutableDictionary *attr=[NSMutableDictionary dictionary];
+    attr[NSForegroundColorAttributeName]=[UIColor blackColor];
+    [tabBarItem setTitleTextAttributes:attr forState:UIControlStateSelected];
+    
+    NSMutableDictionary *attr2=[NSMutableDictionary dictionary];
+    attr2[NSFontAttributeName]=[UIFont systemFontOfSize:13];
+    [tabBarItem setTitleTextAttributes:attr2 forState:UIControlStateNormal];
+}
 //添加子控制器
 -(void)setupAllController{
     XMGEssenceViewController *essence=[[XMGEssenceViewController alloc]init];
