@@ -48,18 +48,27 @@
 //设置子控制器按钮
 -(void)setupTitleButton{
     UINavigationController *nav1=self.childViewControllers[0];
+    nav1.tabBarItem.image=[UIImage imageNamed:@"tabBar_essence_icon"];
+    nav1.tabBarItem.selectedImage=[UIImage imageNamed:@"tabBar_essence_click_icon"];
     nav1.tabBarItem.title=@"精华";
     
     UINavigationController *nav2=self.childViewControllers[1];
+    nav2.tabBarItem.image=[UIImage imageNamed:@"tabBar_new_icon"];
+    nav2.tabBarItem.selectedImage=[UIImage imageNamed:@"tabBar_new_click_icon"];
     nav2.tabBarItem.title=@"新帖";
     
     UINavigationController *nav3=self.childViewControllers[2];
-    nav3.tabBarItem.title=@"发布";
+    nav3.tabBarItem.image=[UIImage imageNamed:@"tabBar_publish_icon"];
+    nav3.tabBarItem.selectedImage=[UIImage imageNamed:@"tabBar_publish_click_icon"];
     
     UINavigationController *nav4=self.childViewControllers[3];
+    nav4.tabBarItem.image=[UIImage imageNamed:@"tabBar_friendTrends_icon"];
+    nav4.tabBarItem.selectedImage=[UIImage imageNamed:@"tabBar_friendTrends_click_icon"];
     nav4.tabBarItem.title=@"关注";
     
     UINavigationController *nav5=self.childViewControllers[4];
+    nav5.tabBarItem.image=[UIImage imageNamed:@"tabBar_me_icon"];
+    nav5.tabBarItem.selectedImage=[UIImage imageNamed:@"tabBar_me_click_icon"];
     nav5.tabBarItem.title=@"我的";
 }
 
