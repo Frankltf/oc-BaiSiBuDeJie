@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 #import "XMGTabController.h"
+#import "XMGAdverViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,9 +20,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     UIWindow *window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window=window;
-    XMGTabController *tabBar=[[XMGTabController alloc]init];
-
-    self.window.rootViewController=tabBar;
+    //XMGTabController *tabBar=[[XMGTabController alloc]init];
+    XMGAdverViewController *adver=[[XMGAdverViewController alloc]init];
+    self.window.rootViewController=adver;
     [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
     return YES;
