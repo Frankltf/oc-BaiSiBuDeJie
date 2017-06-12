@@ -1,29 +1,28 @@
 //
-//  XMGAdViewController.m
+//  XMGSettingViewController.m
 //  BuDeJie
 //
 //  Created by admin on 2017/6/12.
 //  Copyright © 2017年 admin. All rights reserved.
 //
 
-#import "XMGAdViewController.h"
-#import "UIBarButtonItem+Item.h"
-@interface XMGAdViewController ()
+#import "XMGSettingViewController.h"
+
+@interface XMGSettingViewController ()
 
 @end
 
-@implementation XMGAdViewController
+@implementation XMGSettingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setupAdBar];
+    [self setupSetting];
     // Do any additional setup after loading the view.
 }
--(void)setupAdBar{
-    self.view.backgroundColor=[UIColor blueColor];
-    self.navigationItem.title=@"设置";
-    NSLog(@"%d",555);
+-(void)setupSetting{
+    self.view.backgroundColor=[UIColor redColor];
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

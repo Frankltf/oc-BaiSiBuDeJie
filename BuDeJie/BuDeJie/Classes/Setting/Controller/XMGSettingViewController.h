@@ -1,5 +1,5 @@
 //
-//  XMGAdViewController.h
+//  XMGSettingViewController.h
 //  BuDeJie
 //
 //  Created by admin on 2017/6/12.
