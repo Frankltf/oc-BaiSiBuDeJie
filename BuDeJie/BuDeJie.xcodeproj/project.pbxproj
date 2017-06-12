@@ -18,6 +18,7 @@
 		8499CC251EEE462D00CDB8E0 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 8499CC241EEE462D00CDB8E0 /* UIImage+Image.m */; };
 		8499CC281EEE469100CDB8E0 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 8499CC271EEE469100CDB8E0 /* UIBarButtonItem+Item.m */; };
 		8499CC2F1EEE60D900CDB8E0 /* XMGSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8499CC2E1EEE60D900CDB8E0 /* XMGSettingViewController.m */; };
+		8499CC511EEE75FA00CDB8E0 /* XMGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8499CC501EEE75FA00CDB8E0 /* XMGNavigationController.m */; };
 		84DDA98A1EED0F1200F8893C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DDA9881EED0F1200F8893C /* Main.storyboard */; };
 		84DDA98C1EED0F1200F8893C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DDA98B1EED0F1200F8893C /* Assets.xcassets */; };
 		84DDA98F1EED0F1200F8893C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DDA98D1EED0F1200F8893C /* LaunchScreen.storyboard */; };
@@ -56,6 +57,8 @@
 		8499CC271EEE469100CDB8E0 /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
 		8499CC2D1EEE60D900CDB8E0 /* XMGSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSettingViewController.h; sourceTree = "<group>"; };
 		8499CC2E1EEE60D900CDB8E0 /* XMGSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSettingViewController.m; sourceTree = "<group>"; };
+		8499CC4F1EEE75FA00CDB8E0 /* XMGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMGNavigationController.h; path = BuDeJie/Classes/Main/XMGNavigationController.h; sourceTree = SOURCE_ROOT; };
+		8499CC501EEE75FA00CDB8E0 /* XMGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMGNavigationController.m; path = BuDeJie/Classes/Main/XMGNavigationController.m; sourceTree = SOURCE_ROOT; };
 		84DDA97C1EED0F1200F8893C /* BuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DDA9891EED0F1200F8893C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84DDA98B1EED0F1200F8893C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -180,6 +183,8 @@
 			children = (
 				251CF0D41EED40E80055E738 /* XMGTabController.h */,
 				251CF0D51EED40E80055E738 /* XMGTabController.m */,
+				8499CC4F1EEE75FA00CDB8E0 /* XMGNavigationController.h */,
+				8499CC501EEE75FA00CDB8E0 /* XMGNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -505,6 +510,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8499CC511EEE75FA00CDB8E0 /* XMGNavigationController.m in Sources */,
 				251CF0C71EED3E130055E738 /* XMGEssenceViewController.m in Sources */,
 				8499CC281EEE469100CDB8E0 /* UIBarButtonItem+Item.m in Sources */,
 				251CF0D31EED3E780055E738 /* XMGPublishViewController.m in Sources */,
