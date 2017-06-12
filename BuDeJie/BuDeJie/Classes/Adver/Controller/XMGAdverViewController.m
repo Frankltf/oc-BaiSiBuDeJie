@@ -41,6 +41,9 @@
         self.launchScreen.image=[UIImage imageNamed:@"LaunchImage-700"];
     }
 }
+- (IBAction)jump:(id)sender {
+    NSLog(@"%d",666);
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
