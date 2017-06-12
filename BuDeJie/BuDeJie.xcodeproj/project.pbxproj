@@ -17,7 +17,7 @@
 		8499CC211EEE39E000CDB8E0 /* XMGMeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8499CC201EEE39E000CDB8E0 /* XMGMeTableViewController.m */; };
 		8499CC251EEE462D00CDB8E0 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 8499CC241EEE462D00CDB8E0 /* UIImage+Image.m */; };
 		8499CC281EEE469100CDB8E0 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 8499CC271EEE469100CDB8E0 /* UIBarButtonItem+Item.m */; };
-		8499CC2F1EEE60D900CDB8E0 /* XMGAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8499CC2E1EEE60D900CDB8E0 /* XMGAdViewController.m */; };
+		8499CC2F1EEE60D900CDB8E0 /* XMGSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8499CC2E1EEE60D900CDB8E0 /* XMGSettingViewController.m */; };
 		84DDA98A1EED0F1200F8893C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DDA9881EED0F1200F8893C /* Main.storyboard */; };
 		84DDA98C1EED0F1200F8893C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DDA98B1EED0F1200F8893C /* Assets.xcassets */; };
 		84DDA98F1EED0F1200F8893C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DDA98D1EED0F1200F8893C /* LaunchScreen.storyboard */; };
@@ -54,8 +54,8 @@
 		8499CC241EEE462D00CDB8E0 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		8499CC261EEE469100CDB8E0 /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
 		8499CC271EEE469100CDB8E0 /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
-		8499CC2D1EEE60D900CDB8E0 /* XMGAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGAdViewController.h; sourceTree = "<group>"; };
-		8499CC2E1EEE60D900CDB8E0 /* XMGAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGAdViewController.m; sourceTree = "<group>"; };
+		8499CC2D1EEE60D900CDB8E0 /* XMGSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSettingViewController.h; sourceTree = "<group>"; };
+		8499CC2E1EEE60D900CDB8E0 /* XMGSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSettingViewController.m; sourceTree = "<group>"; };
 		84DDA97C1EED0F1200F8893C /* BuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DDA9891EED0F1200F8893C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84DDA98B1EED0F1200F8893C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -333,8 +333,8 @@
 		8499CC2A1EEE60AA00CDB8E0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8499CC2D1EEE60D900CDB8E0 /* XMGAdViewController.h */,
-				8499CC2E1EEE60D900CDB8E0 /* XMGAdViewController.m */,
+				8499CC2D1EEE60D900CDB8E0 /* XMGSettingViewController.h */,
+				8499CC2E1EEE60D900CDB8E0 /* XMGSettingViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -511,7 +511,7 @@
 				8499CC211EEE39E000CDB8E0 /* XMGMeTableViewController.m in Sources */,
 				8499CC251EEE462D00CDB8E0 /* UIImage+Image.m in Sources */,
 				251CF0D01EED3E650055E738 /* XMGNewViewController.m in Sources */,
-				8499CC2F1EEE60D900CDB8E0 /* XMGAdViewController.m in Sources */,
+				8499CC2F1EEE60D900CDB8E0 /* XMGSettingViewController.m in Sources */,
 				251CF0D61EED40E80055E738 /* XMGTabController.m in Sources */,
 				251CF0CA1EED3E240055E738 /* XMGFriendTrendViewController.m in Sources */,
 				251CF0C41EED3D400055E738 /* main.m in Sources */,

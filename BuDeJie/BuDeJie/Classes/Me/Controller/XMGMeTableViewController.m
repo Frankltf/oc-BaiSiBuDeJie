@@ -8,7 +8,7 @@
 
 #import "XMGMeTableViewController.h"
 #import "UIBarButtonItem+Item.h"
-#import "XMGAdViewController.h"
+#import "XMGSettingViewController.h"
 @interface XMGMeTableViewController ()
 
 @end
@@ -39,7 +39,7 @@
     NSLog(@"%@",button);
 }
 -(void)tosetting{
-    XMGAdViewController *ad=[[XMGAdViewController alloc]init];
+    XMGSettingViewController *ad=[[XMGSettingViewController alloc]init];
     [ad.navigationController hidesBottomBarWhenPushed];
     [self.navigationController pushViewController:ad animated:YES];
 }
