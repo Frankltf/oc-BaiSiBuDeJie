@@ -7,7 +7,7 @@
 //
 
 #import "XMGFriendTrendViewController.h"
-
+#import "UIBarButtonItem+Item.h"
 @interface XMGFriendTrendViewController ()
 
 @end
@@ -16,9 +16,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setupNavBar];
     // Do any additional setup after loading the view.
 }
+-(void)setupNavBar{
+    self.navigationItem.title=@"关注";
+//    UIButton *leftButton=[UIButton buttonWithType:UIButtonTypeCustom];
+//    [leftButton setImage:[UIImage imageNamed:@"friendsRecommentIcon"] forState:UIControlStateNormal];
+//    [leftButton setImage:[UIImage imageNamed:@"friendsRecommentIcon-click"] forState:UIControlStateHighlighted];
+//    [leftButton sizeToFit];
+//    [leftButton addTarget:self action:@selector(addFriend) forControlEvents:UIControlEventTouchUpInside];
+//    UIBarButtonItem *addLeft=[[UIBarButtonItem alloc]initWithCustomView:leftButton];
+//    
+//    self.navigationItem.leftBarButtonItem=addLeft;
+    self.navigationItem.leftBarButtonItem=[UIBarButtonItem itemWithImage:[UIImage imageNamed:@"friendsRecommentIcon"] hightImage:[UIImage imageNamed:@"friendsRecommentIcon-click"] addTarget:self action:@selector(addFriend)];
 
+}
+-(void)addFriend{
+    NSLog(@"%d",777);
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

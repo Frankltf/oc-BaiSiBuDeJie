@@ -7,7 +7,7 @@
 //
 
 #import "XMGMeTableViewController.h"
-
+#import "UIBarButtonItem+Item.h"
 @interface XMGMeTableViewController ()
 
 @end
@@ -16,14 +16,45 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self setupNavBar];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
-
+-(void)setupNavBar{
+    self.navigationItem.title=@"我的";
+    
+//    UIButton *btn=[UIButton buttonWithType:UIButtonTypeCustom];
+//    [btn setImage:[UIImage imageNamed:@"mine-setting-icon"] forState:UIControlStateNormal];
+//    [btn setImage:[UIImage imageNamed:@"mine-setting-icon-click"] forState:UIControlStateHighlighted];
+//    [btn sizeToFit];
+//    [btn addTarget:self action:@selector(tosetting) forControlEvents:UIControlEventTouchUpInside];
+//    UIBarButtonItem *buttonItem=[[UIBarButtonItem alloc]initWithCustomView:btn];
+//    
+//    
+//    UIButton *nightButton=[UIButton buttonWithType:UIButtonTypeCustom];
+//    [nightButton setImage:[UIImage imageNamed:@"mine-moon-icon"] forState:UIControlStateNormal];
+//    [nightButton setImage:[UIImage imageNamed:@"mine-moon-icon-click"] forState:UIControlStateSelected];
+//    [nightButton sizeToFit];
+//    [nightButton addTarget:self action:@selector(nightButton:) forControlEvents:UIControlEventTouchUpInside];
+//    UIBarButtonItem *nightButtonItem=[[UIBarButtonItem alloc]initWithCustomView:nightButton];
+    UIBarButtonItem *buttonItem=[UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine-setting-icon"] hightImage:[UIImage imageNamed:@"mine-setting-icon-click"] addTarget:self action:@selector(tosetting)];
+    UIBarButtonItem *nightButton=[UIBarButtonItem itemWithImageSelected:[UIImage imageNamed:@"mine-moon-icon"] hightImage:[UIImage imageNamed:@"mine-moon-icon-click"] addTarget:self action:@selector(nightButton:)];
+    
+    
+    self.navigationItem.rightBarButtonItems=@[buttonItem,nightButton];
+    
+}
+-(void)nightButton:(UIButton *)button{
+    button.selected=!button.selected;
+    NSLog(@"%d",666);
+    NSLog(@"%@",button);
+}
+-(void)tosetting{
+    NSLog(@"%d",555);
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

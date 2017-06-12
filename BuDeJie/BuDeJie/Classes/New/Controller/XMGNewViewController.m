@@ -7,7 +7,7 @@
 //
 
 #import "XMGNewViewController.h"
-
+#import "UIBarButtonItem+Item.h"
 @interface XMGNewViewController ()
 
 @end
@@ -16,9 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setupBarButton];
     // Do any additional setup after loading the view.
 }
-
+-(void)setupBarButton{
+    NSLog(@"%d",888);
+    self.navigationItem.titleView=[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"MainTitle"]];
+    self.navigationItem.leftBarButtonItem=[UIBarButtonItem itemWithImage:[UIImage imageNamed:@"MainTagSubIcon"] hightImage:[UIImage imageNamed:@"MainTagSubIconClick"] addTarget:self action:@selector(tagClick)];
+    
+}
+-(void)tagClick{
+    NSLog(@"%d",999);
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
