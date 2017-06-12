@@ -7,6 +7,8 @@
 //
 
 #import "XMGAdverViewController.h"
+#import <AFNetworking/AFNetworking.h>
+
 #define XMGScreenW [UIScreen mainScreen].bounds.size.width
 #define XMGScreenH [UIScreen mainScreen].bounds.size.height
 #define iphone6P (XMGScreenH==736)
@@ -27,6 +29,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupLaunchImage];
+    
+    
+    
     
     // Do any additional setup after loading the view.
 }
