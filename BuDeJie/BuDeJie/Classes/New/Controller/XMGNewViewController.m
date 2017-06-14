@@ -8,6 +8,7 @@
 
 #import "XMGNewViewController.h"
 #import "UIBarButtonItem+Item.h"
+#import "XMGSubTagTableViewController.h"
 @interface XMGNewViewController ()
 
 @end
@@ -26,7 +27,8 @@
     
 }
 -(void)tagClick{
-    NSLog(@"%d",999);
+    XMGSubTagTableViewController *subtag=[[XMGSubTagTableViewController alloc]init];
+    [self.navigationController pushViewController:subtag animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
