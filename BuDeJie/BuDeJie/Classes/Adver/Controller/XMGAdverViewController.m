@@ -90,7 +90,9 @@
     }
 }
 - (IBAction)jump:(id)sender {
-    NSLog(@"%d",666);
+    XMGTabController *tarBar=[[XMGTabController alloc]init];
+    [UIApplication sharedApplication].keyWindow.rootViewController=tarBar;
+    [_timer invalidate];
 }
 
 - (void)didReceiveMemoryWarning {
