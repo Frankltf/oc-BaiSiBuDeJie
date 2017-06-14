@@ -14,6 +14,7 @@
 		251CF0D01EED3E650055E738 /* XMGNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 251CF0CF1EED3E650055E738 /* XMGNewViewController.m */; };
 		251CF0D31EED3E780055E738 /* XMGPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 251CF0D21EED3E780055E738 /* XMGPublishViewController.m */; };
 		251CF0D61EED40E80055E738 /* XMGTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 251CF0D51EED40E80055E738 /* XMGTabController.m */; };
+		842FC8021EF0D852005CE3C2 /* XMGADItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 842FC8011EF0D852005CE3C2 /* XMGADItem.m */; };
 		8499CC211EEE39E000CDB8E0 /* XMGMeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8499CC201EEE39E000CDB8E0 /* XMGMeTableViewController.m */; };
 		8499CC251EEE462D00CDB8E0 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 8499CC241EEE462D00CDB8E0 /* UIImage+Image.m */; };
 		8499CC281EEE469100CDB8E0 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 8499CC271EEE469100CDB8E0 /* UIBarButtonItem+Item.m */; };
@@ -62,6 +63,8 @@
 		251CF0D51EED40E80055E738 /* XMGTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTabController.m; sourceTree = "<group>"; };
 		30F85F60171E0A9524D439A0 /* Pods-BuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuDeJie/Pods-BuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
 		3BD81A95F3DBFDFAFC603459 /* libPods-BuDeJie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuDeJie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		842FC8001EF0D852005CE3C2 /* XMGADItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGADItem.h; sourceTree = "<group>"; };
+		842FC8011EF0D852005CE3C2 /* XMGADItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGADItem.m; sourceTree = "<group>"; };
 		8499CC1F1EEE39E000CDB8E0 /* XMGMeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGMeTableViewController.h; sourceTree = "<group>"; };
 		8499CC201EEE39E000CDB8E0 /* XMGMeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGMeTableViewController.m; sourceTree = "<group>"; };
 		8499CC231EEE462D00CDB8E0 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
@@ -424,6 +427,8 @@
 		8499CC941EEE8BC000CDB8E0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				842FC8001EF0D852005CE3C2 /* XMGADItem.h */,
+				842FC8011EF0D852005CE3C2 /* XMGADItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -674,6 +679,7 @@
 				8499CC251EEE462D00CDB8E0 /* UIImage+Image.m in Sources */,
 				251CF0D01EED3E650055E738 /* XMGNewViewController.m in Sources */,
 				251CF0D61EED40E80055E738 /* XMGTabController.m in Sources */,
+				842FC8021EF0D852005CE3C2 /* XMGADItem.m in Sources */,
 				251CF0CA1EED3E240055E738 /* XMGFriendTrendViewController.m in Sources */,
 				251CF0C41EED3D400055E738 /* main.m in Sources */,
 				8499CC911EEE87B500CDB8E0 /* XMGSettingViewController.m in Sources */,
